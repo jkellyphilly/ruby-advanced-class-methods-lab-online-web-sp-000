@@ -56,7 +56,8 @@ class Song
   end
 
   def self.create_from_filename(input)
-    
+    artist_and_song = input.split(" - ")
+    song_title = artist_and_song[1].delete_suffix('.mp3')
   end
 
   def self.destroy_all
