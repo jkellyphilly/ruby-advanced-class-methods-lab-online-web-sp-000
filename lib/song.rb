@@ -35,6 +35,10 @@ class Song
     @@all.find {|song| song.name == song_title}
   end
 
+  def find_or_create_by_name(song_title)
+
+  end
+
 end
 
 puts "Hi it's Joel"
