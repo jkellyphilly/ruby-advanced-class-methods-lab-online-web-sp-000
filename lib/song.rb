@@ -43,6 +43,14 @@ class Song
     end
   end
 
+  def self.alphabetical
+
+  end
+
+  def self.new_from_filename(input)
+
+  end
+
 end
 
 puts "Hi it's Joel"
