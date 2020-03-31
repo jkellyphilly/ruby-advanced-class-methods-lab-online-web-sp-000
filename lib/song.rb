@@ -51,6 +51,10 @@ class Song
 
   end
 
+  def self.create_from_filename(input)
+
+  end
+
 end
 
 puts "Hi it's Joel"
