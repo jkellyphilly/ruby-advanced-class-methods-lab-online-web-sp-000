@@ -10,6 +10,14 @@ class Song
     self.class.all << self
   end
 
+  # Class Methods
+
+  def self.create
+    song = self.new
+    song.save
+    song
+  end
+
 end
 
 puts "Hi it's Joel"
