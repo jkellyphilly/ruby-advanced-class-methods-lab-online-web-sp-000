@@ -31,6 +31,10 @@ class Song
     song
   end
 
+  def self.find_by_name(song_title)
+
+  end
+
 end
 
 puts "Hi it's Joel"
