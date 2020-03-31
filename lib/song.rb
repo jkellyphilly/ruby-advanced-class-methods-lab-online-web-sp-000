@@ -18,6 +18,10 @@ class Song
     song
   end
 
+  def self.new_by_name(song_title)
+
+  end
+
 end
 
 puts "Hi it's Joel"
