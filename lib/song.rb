@@ -55,6 +55,10 @@ class Song
 
   end
 
+  def self.destroy_all
+
+  end
+
 end
 
 puts "Hi it's Joel"
